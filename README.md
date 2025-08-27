@@ -21,4 +21,28 @@ This reduces hallucinations and ensures concise, reliable answers.
 ## Sample Outputs
 
 ### Example Q1: How do I top up my account?
+You can top up via M-Pesa by selecting Paybill 332211, then entering your account number.
 
+
+### Example Q2: What if I move to a new house?
+Yes, but please notify M-Gas support so a technician can reinstall the cylinder safely at your new location.
+
+
+### Example Q3: How do I report gas leaks?
+I don’t have information on reporting gas leaks in the FAQs provided.
+The best next step is to call M-Gas support immediately for safety assistance.
+If you suspect danger, also contact your local emergency services right away.
+Would you like me to share the support hotline number listed for other issues
+
+
+
+## Reflections
+- XML separation clearly improved accuracy and conciseness.
+- Versioning FAQs (`faqs-v1`, `faqs-v2`) helps track changes over time.
+- The bot gracefully handles missing info by suggesting next steps.
+- Next iteration: enrich answers with support links and escalation paths.
+
+---
+
+📌 See prompt file: [`faq_prompt.xml`](./faq_prompt.xml)  
+📒 Iteration notes: logged in Notion (`Intermediate Project 2 — FAQ Bot`)  
